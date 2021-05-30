@@ -44,3 +44,20 @@ style_tag = {
     """
 }
 ```
+
+### API Reference
+
+#### Functions
+
+- create_tag(\*args) - Takes tuples and converts to tag dict. 
+Example: a_tag = `create_tag(("type","a"),("display","Google"),("href","https://www.google.com"))`
+will produce :
+```python
+a_tag = {
+  "type" : "a",
+  "diplay" : "Google",
+  "href" : "https://www.google.com/"
+}
+```
+
+
